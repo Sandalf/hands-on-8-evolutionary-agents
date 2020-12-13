@@ -12,5 +12,5 @@ javac -cp lib/jade.jar src/ai/genalgots/*.java -d classes/
 # How to execute
 From root directory run an pass the `x` value as a parameter:
 ```shell
-java -cp lib/jade.jar:classes/ jade.Boot -gui 'maxFunctionAgent:ai.genalgots.MaxFunctionAgent'
+java -cp lib/jade.jar:classes/ jade.Boot -gui 'solveEquationAgent:ai.genalgots.SolveEquationAgent'
 ```
