@@ -1,6 +1,7 @@
 # Hands on 8 - Evolutionary Agents
 
-Agente Evolutivo (Jade) , para maximizar la función `f(x) = x^2` en el rango [1, 30]
+Agente Evolutivo  en Jade para  para solucionar la ecuación: `a + 2b - 3c + d + 4e + f = 30`
+
 
 # How to compile
 From root directory run:
