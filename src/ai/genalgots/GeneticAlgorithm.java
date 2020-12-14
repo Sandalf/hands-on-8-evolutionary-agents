@@ -23,10 +23,9 @@ public class GeneticAlgorithm {
     }
 
     public double calcFitness(Individual individual) {
-        double fitness =  Math.pow(individual.evaluate(), 2);
         int equationResult = individual.evaluate();
-        individual.setFitness(100 - Math.abs(equationResult - this.target));
-
+        double fitness = 100 - Math.abs(equationResult - this.target);
+        individual.setFitness(fitness);
         return fitness;
     }
 

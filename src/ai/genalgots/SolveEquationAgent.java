@@ -24,7 +24,7 @@ public class SolveEquationAgent extends Agent {
             int populationSize = 30;
             double mutationRate = 0.001;
             double crossoverRate = 0.95;
-            int elitismCount = 2;
+            int elitismCount = 0;
             int chromosomeLength = 6;
             int target = 30;
             GeneticAlgorithm ga = new GeneticAlgorithm(populationSize, mutationRate, crossoverRate, elitismCount,
